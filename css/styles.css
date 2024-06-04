@@ -23,7 +23,9 @@ body{
     /* background: linear-gradient(to bottom, #23488F, #43B4AC); */
     background-color: black;
 }
-
+.navbar{
+    background-color: var(--main-color)
+}
 .navbar-header{
     width: 20%;
 }
