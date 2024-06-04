@@ -93,10 +93,6 @@ nav a{
     text-decoration: none;
     padding: 3%;
 }
-.secciones li{
-    font-family: 'Open Sans', sans-serif;
-    color: var(--main-color);
-}
 .logo{
     width: 35%;
 }
@@ -107,6 +103,14 @@ nav a{
     width: 50%;
 } */
 /* VIDEO PRINCIPAL HEADER */
+.secciones li{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--main-color);
+}
+.secciones a:hover{
+    color: var(--azulbrillante);
+    background-color:  #5093d6;
+}
 .multimedia{
     color: #4089AD;
     font-size: 50px;
@@ -641,6 +645,11 @@ color: var(--bg-color)
 }
 /* dispositivo pequeño */
 @media(max-width: 480px){
+
+    .youtube iframe{
+        width: 100%;
+        height: 100%;
+    }
     .header{
         margin-bottom: 20%;
     }
