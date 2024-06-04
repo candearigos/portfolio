@@ -651,10 +651,11 @@ color: var(--bg-color)
         height: 100%;
     }
     .header{
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
     .titulo h1{
         margin-top: 10%;
+        margin-left: 5%;
     }
     .iconos h3{
       display: none;
@@ -671,6 +672,16 @@ color: var(--bg-color)
     .titulo h1{
         font-size: 35px;
     }
+.titulo a{
+    padding-top: 10%;
+}
+
+
+     /* datos cande  */
+     .redes h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+    }
     /* graficos */
     .grupoetario img{
         width: 100%;
@@ -681,9 +692,17 @@ color: var(--bg-color)
         margin-left: 5%;
     }
     .textogrupoe h5{
+        width: 80%;
+        font-size: 15px;
+    }
+    .minidocumentales iframe{
+    padding-top: 4%;
+    }
+    .minidocumentales{
+        margin-bottom: -45%;
+    }
+    .textogrupoe h4{
         font-size: 20px;
-        font-family: 'Open Sans', sans-serif;
-        color: #1B5C9E;
     }
     .imggrafico img{
         width: 100%;
