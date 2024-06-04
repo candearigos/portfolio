@@ -311,21 +311,6 @@ filter: grayscale(100%);
     color: #1B5C9E;
 }
 
-/* mini documentales
- .minidocumentales{
-    background-color: var(--black-color);
-}
-.titulodocumentales h4{
-    color: var(--black-color);
-    font-family: 'Open Sans', sans-serif;
-} 
-
-.minidocumentales{
-   ;
-}
-.titulodocumentales{
-    color: ;
-}
 /* notas */
 .notasleidas img{
     width: 110%;
@@ -377,6 +362,17 @@ filter: grayscale(100%);
     background-color: var(--main-color);
     border-color: var(--main-color);
     box-shadow: 2px 2px 10px rgb(212, 213, 214);
+}
+.doc, .doc a{
+    color: #fff;
+    text-decoration: none;
+}
+.botonmaterias:hover{
+background-color: rgb(235, 233, 233);
+color: var(--bg-color)
+}
+.doc a:hover{
+    color: var(--bg-color);
 }
 .brief{
     font-style: italic;
@@ -627,45 +623,27 @@ filter: grayscale(100%);
     margin-bottom: 2%;
     padding-right: 3%;
 }
+.videoresponsive{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 100%;
+}
+.desktop{
+    display: block;
+}
 /* dispositivo pequeño */
 @media(max-width: 480px){
-    .offcanvasNavbarLabel{
-        width: 60%;
+    .header{
+        margin-bottom: 20%;
     }
-    .navbar-header img{
-        width: 150%;
-    }
-    .logoresponsive{
-        width: 50%;
-    }
-    button{
-        margin-left: 90%;
-        color: white;
-    }
-    video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        object-fit: cover;
-        opacity: 100%;
-        height: 250px;
-    }
-    .audiencia{
-        margin-top: 30%;
-    }
-    .responsive{
-        display: block;
-    }
-    .desktop{
-        display: none;
-    }
-    .acordion{
-        display: none;
-    }
-    .tarifario{
-        margin-top: -30%;
+    .titulo h1{
+        margin-top: 10%;
     }
     .iconos h3{
       display: none;
@@ -678,6 +656,9 @@ filter: grayscale(100%);
     .iconos i{
         margin-top: 10%;
         margin-left: 10%;
+    }
+    .titulo h1{
+        font-size: 35px;
     }
     /* graficos */
     .grupoetario img{
@@ -735,6 +716,14 @@ filter: grayscale(100%);
     margin-top: 50%;
     margin-bottom: -1%;
 }
+.textopalermo p{
+    /* border: 2px solid white; */
+    padding: 0%;
+    margin-top: 7%;
+    font-size: 13px;
+    margin-left: 0%;
+    font-style: italic;
+}
 .tarifario{
     margin-top: 5%;
 }
@@ -758,9 +747,6 @@ filter: grayscale(100%);
 }
 .videotres{
   display: none;
-}
-.titulodisplay{
-    margin-top: 10%;
 }
 .quienessomos{
     margin-top: 10%;
@@ -807,5 +793,11 @@ filter: grayscale(100%);
 .procesoresponsive img{
     display: block;
     width: 100%;
+}
+.videoresponsive{
+    display: block;
+}
+.desktop{
+  display: block;
 }
 }
