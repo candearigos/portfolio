@@ -272,7 +272,17 @@ width: 100%;
 filter: grayscale(100%);
 
 }
-
+ .diplomas a{
+     text-decoration: none;
+     color: black;
+ }
+ .ppt, .ptt a{
+     text-decoration: none;
+     color: black;
+ }
+.imgtero img{
+    width: 100%;
+}
 /* grupo etario */
 .gifsprogramas{
     background-color: (255, 255, 255);
